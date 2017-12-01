@@ -1,0 +1,370 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.smvitm.rajath.smvitm.OlaQuestionActivity"
+    tools:showIn="@layout/app_bar_main"
+    xmlns:card_view="http://schemas.android.com/tools">
+
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:elevation="3dp"
+            card_view:cardUseCompatPadding="true"
+            card_view:cardElevation="4dp"
+            card_view:cardCornerRadius="1dp"
+            android:id="@+id/lay">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:background="#dce0e2">
+
+
+            <Button
+                android:id="@+id/day"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:fontFamily="serif"
+                android:gravity="center"
+                android:textColor="#6A1B9A"
+                android:text="Hooo"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+        </RelativeLayout>
+        </android.support.v7.widget.CardView>
+
+
+
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/card_view"
+            android:layout_below="@+id/lay"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:elevation="3dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="40sp">
+
+
+
+
+
+
+
+
+
+
+
+                <TableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:stretchColumns="*" android:shrinkColumns="*">
+                    <!-- Row 1 with single column -->
+
+
+                    <!-- Row 2 with 3 columns -->
+                    <TableRow
+                        android:id="@+id/tableRow1"
+                        android:layout_height="wrap_content"
+                        android:layout_width="match_parent">
+
+                        <Button
+                            android:id="@+id/p1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentStart="true"
+                            android:layout_below="@+id/day"
+                            android:background="@android:color/transparent"
+                            android:gravity="center"
+                            android:text="09:00 - 09:55"
+                            android:textColor="#000000"
+                            android:textSize="18sp"
+                            android:fontFamily="serif"
+                            android:textStyle="normal"
+                            tools:ignore="ButtonStyle,ObsoleteLayoutParam" />
+
+                        <Button
+                            android:text="-"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@android:color/transparent"
+                            android:gravity="left"
+                            android:textSize="18sp"
+                            android:id="@+id/sub1"
+                            android:fontFamily="serif"
+                            android:textStyle="normal"
+                            tools:ignore="ButtonStyle" />
+
+                    </TableRow>
+                    <TableRow
+                        android:id="@+id/tableRow2"
+                        android:layout_height="wrap_content"
+                        android:layout_width="match_parent">
+
+                        <Button
+                            android:text="09:55 - 10:50"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@android:color/transparent"
+                            android:textSize="18sp"
+                            android:gravity="center"
+                            android:id="@+id/p2"
+                            android:layout_below="@+id/p1"
+                            android:layout_alignStart="@+id/p1"
+                            android:fontFamily="serif"
+                            android:textStyle="normal"
+                            tools:ignore="ButtonStyle,ObsoleteLayoutParam" />
+
+
+                        <Button
+                            android:text="-"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@android:color/transparent"
+                            android:textSize="18sp"
+                            android:gravity="left"
+                            android:id="@+id/sub2"
+                            android:fontFamily="serif"
+                            android:textStyle="normal"
+                            tools:ignore="ButtonStyle" />
+
+                    </TableRow>
+
+
+                    <TableRow
+                        android:id="@+id/tableRow3"
+
+                        android:layout_height="wrap_content"
+                        android:layout_width="match_parent">
+
+                        <Button
+                            android:text="11:10 - 12:05"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@android:color/transparent"
+                            android:textSize="18sp"
+                            android:gravity="center"
+                            android:id="@+id/p3"
+                            android:fontFamily="serif"
+                            android:textStyle="normal"
+                            tools:ignore="ButtonStyle" />
+
+                        <Button
+                            android:text="-"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@android:color/transparent"
+                            android:textSize="18sp"
+                            android:id="@+id/sub3"
+                            android:gravity="left"
+                            android:layout_alignBaseline="@+id/p3"
+                            android:layout_alignBottom="@+id/p3"
+                            android:layout_toEndOf="@+id/p2"
+                            android:fontFamily="serif"
+                            android:textStyle="normal"
+                            tools:ignore="ButtonStyle,ObsoleteLayoutParam" />
+
+                    </TableRow>
+
+
+
+
+                    <TableRow
+                        android:id="@+id/tableRow4"
+
+                        android:layout_height="wrap_content"
+                        android:layout_width="match_parent">
+
+                        <Button
+                            android:text="12:05 - 01:00"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@android:color/transparent"
+                            android:textSize="18sp"
+                            android:gravity="center"
+                            android:id="@+id/p4"
+                            android:fontFamily="serif"
+                            android:textStyle="normal"
+                            tools:ignore="ButtonStyle" />
+
+                        <Button
+                            android:id="@+id/sub4"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_toEndOf="@+id/p4"
+                            android:background="@android:color/transparent"
+                            android:gravity="left"
+                            android:text="-"
+                            android:textSize="18sp"
+                            android:fontFamily="serif"
+                            android:textStyle="normal"
+                            tools:ignore="ButtonStyle,ObsoleteLayoutParam" />
+
+                    </TableRow>
+
+
+
+
+                    <TableRow
+                        android:id="@+id/tableRow5"
+                        android:layout_height="wrap_content"
+                        android:layout_width="match_parent">
+
+                        <Button
+                            android:id="@+id/p5"
+                            android:text="01:00 - 01:55"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@android:color/transparent"
+                            android:textSize="18sp"
+                            android:gravity="center"
+                            android:fontFamily="serif"
+                            android:textStyle="normal"
+                            tools:ignore="ButtonStyle" />
+
+
+                        <Button
+                            android:id="@+id/sub5"
+                            android:text="-"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@android:color/transparent"
+                            android:textSize="18sp"
+                            android:gravity="left"
+                            android:fontFamily="serif"
+                            android:textStyle="normal"
+                            tools:ignore="ButtonStyle" />
+
+
+                    </TableRow>
+
+                    <TableRow
+                        android:id="@+id/tableRow6"
+                        android:layout_height="wrap_content"
+                        android:layout_width="match_parent">
+
+                        <Button
+                            android:id="@+id/p6"
+                            android:text="01:55 - 02:50"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@android:color/transparent"
+                            android:textSize="18sp"
+                            android:gravity="center"
+                            android:layout_alignStart="@+id/p5"
+                            android:layout_below="@+id/p5"
+                            android:fontFamily="serif"
+                            android:textStyle="normal"
+                            tools:ignore="ButtonStyle,ObsoleteLayoutParam" />
+
+
+                        <Button
+                            android:id="@+id/sub6"
+                            android:text=" -"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@android:color/transparent"
+                            android:textSize="18sp"
+                            android:gravity="left"
+                            android:fontFamily="serif"
+                            android:textStyle="normal"
+                            tools:ignore="ButtonStyle" />
+
+
+                    </TableRow>
+
+
+                    <TableRow
+                        android:id="@+id/tableRow7"
+                        android:layout_height="wrap_content"
+                        android:layout_width="match_parent">
+
+                        <Button
+                            android:id="@+id/p7"
+                            android:text="03:00 - 03:55"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@android:color/transparent"
+                            android:textSize="18sp"
+                            android:gravity="center"
+                            android:fontFamily="serif"
+                            android:textStyle="normal"
+                            tools:ignore="ButtonStyle" />
+
+
+
+                        <Button
+                            android:id="@+id/sub7"
+                            android:text="-"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@android:color/transparent"
+                            android:textSize="18sp"
+                            android:gravity="left"
+                            android:fontFamily="serif"
+                            android:textStyle="normal"
+                            tools:ignore="ButtonStyle" />
+
+                    </TableRow>
+                    <TableRow
+                        android:id="@+id/tableRow8"
+                        android:layout_height="wrap_content"
+                        android:layout_width="match_parent">
+
+                        <Button
+                            android:id="@+id/p8"
+                            android:text="03:55 - 04:50"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@android:color/transparent"
+                            android:textSize="18sp"
+                            android:gravity="center"
+                            android:fontFamily="serif"
+                            android:textStyle="normal"
+                            tools:ignore="ButtonStyle" />
+
+
+
+                        <Button
+                            android:id="@+id/sub8"
+                            android:text="-"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@android:color/transparent"
+                            android:textSize="18sp"
+                            android:gravity="left"
+                            android:fontFamily="serif"
+                            android:textStyle="normal"
+                            tools:ignore="ButtonStyle" />
+
+
+                    </TableRow>
+
+                </TableLayout>
+
+
+
+        </android.support.v7.widget.CardView>
+
+
+
+    </RelativeLayout>
+</android.support.v4.widget.NestedScrollView>

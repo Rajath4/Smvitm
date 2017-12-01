@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+   <!-- <PreferenceCategory android:title="@string/pref_title_notifications">
+
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="@string/notifications_new_message"
+            android:title="@string/title_new_notification_sound" />
+
+        <RingtonePreference
+            android:dependency="notifications_new_message"
+            android:key="@string/key_notifications_new_message_ringtone"
+            android:ringtoneType="notification"
+            android:summary="@string/summary_choose_ringtone"
+            android:title="@string/pref_title_ringtone" />
+
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="@string/key_vibrate"
+            android:summary="@string/summary_vibrate"
+            android:title="@string/title_vibrate" />
+    </PreferenceCategory>
+-->
+    <PreferenceCategory android:title="@string/pref_header_about">
+
+        <Preference
+            android:selectable="true"
+            android:summary="@string/summary_about" />
+
+        <Preference
+            android:key="@string/app_ver"
+            android:summary="Beta"
+            android:title="@string/title_version" />
+
+        <Preference
+            android:key="@string/buildNo"
+            android:summary="Beta"
+            android:title="Build Number" />
+
+        <Preference
+            android:key="@string/key_send_feedback"
+            android:summary="@string/summary_support"
+            android:title="@string/title_send_feedback" />
+
+        <Preference
+            android:key="@string/my_feedback"
+            android:summary="Your feedback will help us in improving our application. Please give your feedback."
+            android:title="Send Feedback" />
+
+        <Preference
+            android:key="@string/req"
+            android:summary="You can request for the new feature which you want to see in this app in future"
+            android:title="Request For New Feature" />
+
+        <!-- preference opens url in browser -->
+
+
+
+
+
+    </PreferenceCategory>
+
+    
+
+</PreferenceScreen>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_event"
+        android:icon="@drawable/ic_textsms_black_24dp"
+        android:title="SMVITM News"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/action_account"
+        android:icon="@drawable/ic_account_circle_black_24dp"
+        android:title="User Information"
+        app:showAsAction="ifRoom"/>
+
+
+    <item
+        android:id="@+id/about_smvitm"
+        android:title="About SMVITM"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/about_application"
+        android:title="About Application"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/about_developer"
+        android:title="About Developers"
+        app:showAsAction="never"/>
+
+
+</menu>

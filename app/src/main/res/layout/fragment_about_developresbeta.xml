@@ -1,0 +1,289 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    tools:context=".AboutDevelopresActivity$PlaceholderFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+           >
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="501dp"
+                android:orientation="vertical"
+                android:layout_marginBottom="100dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Our Testing Team"
+                    android:id="@+id/rajath_title"
+                    android:textColor="@color/colorAccent"
+                    android:gravity="center"
+                    android:layout_marginTop="30sp"
+                    android:textSize="18sp"
+                    android:fontFamily="serif"
+                    android:textStyle="bold"/>
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/card_view_aravind"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:elevation="3dp"
+                    android:layout_marginLeft="10sp"
+                    android:layout_marginRight="10sp"
+                    android:layout_marginTop="5sp"
+                    card_view:cardUseCompatPadding="true"
+                    card_view:cardCornerRadius="1dp"
+                    >
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:paddingTop="10sp"
+                        android:paddingBottom="10sp"
+                        android:paddingLeft="3sp"
+                        android:paddingRight="3sp">
+                    <TextView
+                    android:text="Aravinda Upadhya K"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:gravity="center"
+                    android:id="@+id/textView2"
+                    android:layout_marginTop="5dp"
+                    android:layout_alignParentTop="true"
+                    android:textColor="#000000"
+                    android:fontFamily="serif"/>
+
+                <TextView
+                    android:text="aravinda.upadhya.6897@gmail.com"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="18sp"
+                    android:gravity="center"
+                    android:id="@+id/textView4"
+                    android:layout_below="@+id/textView2"
+                    android:layout_centerHorizontal="true"
+                    android:paddingTop="5sp"/>
+
+                    </LinearLayout>
+
+              </android.support.v7.widget.CardView>
+
+
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/card_view_shreenivas"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:elevation="3dp"
+                    android:layout_marginLeft="10sp"
+                    android:layout_marginRight="10sp"
+                    card_view:cardUseCompatPadding="true"
+                    card_view:cardCornerRadius="1dp"
+                    android:layout_below="@+id/card_view_aravind"
+                    >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:paddingTop="10sp"
+                        android:paddingBottom="10sp"
+                        android:paddingLeft="3sp"
+                        android:paddingRight="3sp">
+
+
+                        <TextView
+                            android:id="@+id/textView6"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentStart="true"
+                            android:layout_below="@+id/textView4"
+                            android:gravity="center"
+                            android:text="Shreenivas Hathwar J"
+                            android:textColor="#000000"
+                            android:textSize="20sp"
+                            android:fontFamily="serif"/>
+
+                        <TextView
+                            android:id="@+id/textView8"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentStart="true"
+                            android:layout_below="@+id/textView6"
+                            android:gravity="center"
+                            android:text="shreehathwar@gmail.com"
+                            android:textSize="18sp"
+                            android:paddingTop="5sp"/>
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+
+
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/card_view_shreesha"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:elevation="3dp"
+                    android:layout_marginLeft="10sp"
+                    android:layout_marginRight="10sp"
+                    card_view:cardUseCompatPadding="true"
+                    card_view:cardCornerRadius="1dp"
+                    android:layout_below="@+id/card_view_shreenivas"
+                    >
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:paddingTop="10sp"
+                        android:paddingBottom="10sp"
+                        android:paddingLeft="3sp"
+                        android:paddingRight="3sp">
+
+                <TextView
+                    android:text="Shreesha"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:layout_below="@+id/textView8"
+                    android:gravity="center"
+                    android:layout_centerHorizontal="true"
+                    android:id="@+id/textView9"
+                    android:textColor="#000000"
+                    android:fontFamily="serif"/>
+
+                <TextView
+                    android:text="shreeshakannantha@gmail.com"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView10"
+                    android:textSize="18sp"
+                    android:gravity="center"
+                    android:layout_below="@+id/textView9"
+                    android:layout_centerHorizontal="true"
+                    android:paddingTop="5sp"/>
+
+
+                       </LinearLayout>
+                </android.support.v7.widget.CardView>
+
+
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:elevation="3dp"
+                    android:layout_marginLeft="10sp"
+                    android:layout_marginRight="10sp"
+                    card_view:cardUseCompatPadding="true"
+                    card_view:cardCornerRadius="1dp"
+                    android:layout_below="@+id/card_view_aravind"
+                    >
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:paddingTop="10sp"
+                        android:paddingBottom="10sp"
+                        android:paddingLeft="3sp"
+                        android:paddingRight="3sp">
+
+                <TextView
+                    android:text="Prakhyath Yadav"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:layout_below="@+id/textView8"
+                    android:gravity="center"
+                    android:layout_centerHorizontal="true"
+                    android:textColor="#000000"
+                    android:fontFamily="serif"/>
+
+                <TextView
+                    android:text="prakhyathnaik08@gmail.com"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="18sp"
+                    android:gravity="center"
+                    android:layout_below="@+id/textView9"
+                    android:layout_centerHorizontal="true"
+                    android:paddingTop="5sp"/>
+
+
+                  </LinearLayout>
+                </android.support.v7.widget.CardView>
+
+
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/card_view_ranjan"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:elevation="3dp"
+                    android:layout_marginLeft="10sp"
+                    android:layout_marginRight="10sp"
+                    card_view:cardUseCompatPadding="true"
+                    card_view:cardCornerRadius="1dp"
+                    >
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:paddingTop="10sp"
+                        android:paddingBottom="10sp"
+                        android:paddingLeft="3sp"
+                        android:paddingRight="3sp">
+
+                <TextView
+                    android:text="Ranjan"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:layout_below="@+id/textView8"
+                    android:gravity="center"
+                    android:layout_centerHorizontal="true"
+                    android:textColor="#000000"
+                    android:fontFamily="serif"/>
+
+                <TextView
+                    android:text="ranjanbhat9741rb@gmail.com"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="18sp"
+                    android:gravity="center"
+                    android:layout_below="@+id/textView9"
+                    android:layout_centerHorizontal="true"
+                    android:paddingTop="5sp"/>
+                        </LinearLayout>
+                </android.support.v7.widget.CardView>
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+
+</RelativeLayout>

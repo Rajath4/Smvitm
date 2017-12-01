@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="OldQuestionPaperTitle" parent="TextAppearance.AppCompat.Title">
+        <item name="android:titleTextColor">#212121</item>
+    </style>
+</resources>

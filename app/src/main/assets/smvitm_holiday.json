@@ -1,0 +1,96 @@
+{
+  "holiday":
+          [
+            {
+              "id":"SI.\nNO.",
+              "month":"Month",
+              "date":"Date",
+              "day":"Day",
+              "info":"Info"
+            },
+            {
+              "id":"1",
+              "month":"Aug",
+              "date":"15",
+              "day":"Tue",
+              "info":"Independence Day"
+            },
+            {
+              "id":"2",
+              "month":"Aug",
+              "date":"25",
+              "day":"Fri",
+              "info":"Varasiddhi Vinayaka Vrata"
+            },
+            {
+              "id":"3",
+              "month":"Sep",
+              "date":"02",
+              "day":"Sat",
+              "info":"Bakrid"
+            },
+            {
+              "id":"4",
+              "month":"Sep",
+              "date":"19",
+              "day":"Tue",
+              "info":"Mahalaya Amavasye"
+            },
+            {
+              "id":"5",
+              "month":"Sep",
+              "date":"29",
+              "day":"Fri",
+              "info":"Mahanavami"
+            },
+            {
+              "id":"6",
+              "month":"Sep",
+              "date":"30",
+              "day":"Sat",
+              "info":"Vijayadashami"
+            },
+            {
+              "id":"7",
+              "month":"Oct",
+              "date":"02",
+              "day":"Mon",
+              "info":"Gandhi Jayanthi"
+            },
+            {
+              "id":"8",
+              "month":"Oct",
+              "date":"18",
+              "day":"Wed",
+              "info":"Naraka Chathurdashi"
+            },
+            {
+              "id":"9",
+              "month":"Oct",
+              "date":"20",
+              "day":"Fri",
+              "info":"Deepavali"
+            },
+            {
+              "id":"10",
+              "month":"Nov",
+              "date":"01",
+              "day":"Wed",
+              "info":"Kannada Rajyothsava"
+            },
+            {
+              "id":"11",
+              "month":"Dec",
+              "date":"01",
+              "day":"Fri",
+              "info":"Eid Milad"
+            },
+            {
+              "id":"12",
+              "month":"Dec",
+              "date":"25",
+              "day":"Mon",
+              "info":"Christmas"
+            }
+          ]
+}

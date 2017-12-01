@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+      <item
+        android:title="Personalize Time Table"
+          android:icon="@drawable/ic_event_note_black_24dp"
+          android:id="@+id/PersonalizeTimeTable"/>
+
+    </group>
+    <group android:checkableBehavior="single">
+        <item android:title="About Application"
+        android:icon="@drawable/ic_phone_iphone_black_24dp"
+            android:id="@+id/Settings"/>
+
+    </group>
+    <group android:checkableBehavior="single">
+        <item
+            android:title="About Developers"
+            android:icon="@drawable/ic_supervisor_account_black_24dp"
+            android:id="@+id/AboutDevelopers"/>
+
+
+    </group>
+
+
+
+
+
+
+
+
+
+
+</menu>

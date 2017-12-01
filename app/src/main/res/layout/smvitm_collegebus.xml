@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="3800dp"
+                android:gravity="center|top">
+
+
+
+                <!-- TODO: Update blank fragment layout -->
+
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:adjustViewBounds="true"
+                    android:baseline="5dp"
+                    android:id="@+id/aa"
+                    android:src="@drawable/clgbus"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/aa"
+                    android:textSize="25dp"
+                    android:gravity="center"
+                    android:background="#A1887F"
+                    android:id="@+id/tv"
+                    android:text="College Bus Timings"/>
+
+                <ListView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_below="@+id/tv"
+                    android:id="@+id/listview"
+                    android:background="#FBE9E7"
+                    android:divider="#FFAB91"
+                    android:dividerHeight="2dp"
+                    android:footerDividersEnabled="true"/>
+            </RelativeLayout>
+
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+</RelativeLayout>

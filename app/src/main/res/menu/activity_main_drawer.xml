@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+   <!-- <group android:checkableBehavior="single">
+        <item android:title="Timetable">
+            <menu>
+                <group android:checkableBehavior="single">
+
+                    <item
+                        android:id="@+id/monmenu"
+                        android:title="Monday" />
+                    <item
+                        android:id="@+id/tuemeu"
+                        android:title="Tuesday" />
+                    <item
+                        android:id="@+id/wedmenu"
+                        android:title="Wednesday" />
+                    <item
+                        android:id="@+id/thusmenu"
+                        android:title="Thursday" />
+                    <item
+                        android:id="@+id/frimenu"
+                        android:title="Friday" />
+                    <item
+                        android:id="@+id/satmenu"
+                        android:title="Saturday" />
+                </group>
+            </menu>
+
+        </item>
+
+    </group>-->
+    <group android:checkableBehavior="single">
+        <item android:title="Calender">
+            <menu>
+                    <group android:checkableBehavior="single">
+                        <item android:title="Upcoming Holidays"
+                            android:id="@+id/upholy"/>
+                        <item android:title="Academic Calender"
+                            android:id="@+id/smvitmcalender"/>
+                    </group>
+            </menu>
+        </item>
+    </group>
+
+    <group android:checkableBehavior="single">
+
+        <item android:title="Facilities">
+            <menu>
+
+                <item android:title="Smvitm Cafeteria"
+                    android:id="@+id/smvitmcafeteria"/>
+
+
+                <item android:title="College Bus"
+                    android:id="@+id/smvitmbus"/>
+
+                <item android:title="Central Library"
+                    android:id="@+id/smvitmbook"/>
+
+
+            </menu>
+        </item>
+    </group>
+    <group android:checkableBehavior="single">
+
+        <item android:title="Staff">
+            <menu>
+
+                <item android:title="Faculty Details"
+                    android:id="@+id/smvitmfaculty"/>
+
+            </menu>
+        </item>
+    </group>
+
+     <group android:checkableBehavior="single">
+
+            <item android:title="Study Materials">
+                <menu>
+
+                    <!--<item
+                        android:id="@+id/syllabus"
+                        android:title="VTU Syllabus" />-->
+                    <!--<item
+                        android:id="@+id/sub"
+                        android:title="Subjects"/>-->
+
+                    <item android:title="Old Question Papers"
+                        android:id="@+id/oldp"/>
+
+                </menu>
+            </item>
+        </group>
+    <group android:checkableBehavior="single">
+        <item android:title="Others">
+            <menu>
+                <item
+                    android:id="@+id/websites"
+                    android:title="Websites"/>
+
+
+
+            </menu>
+        </item>
+    </group>
+
+
+</menu>
